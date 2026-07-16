@@ -60,17 +60,3 @@ LIMIT 5;
 Power BI (Power Query, DAX, data modeling)
 SQL (MySQL) for supporting business-question queries
 Excel/CSV for source data
-
-
-🚀 How to Use
-
-
-Clone this repo
-Open Project.pbix in Power BI Desktop to explore the interactive dashboard
-Run global_superstore_2016.sql against a MySQL instance loaded with the dataset to reproduce the supporting queries
-
-
-📌 Notes
-
-
-global-superstore-landing.json is a content/design blueprint (not application code) — useful if you want to build a web landing page or portfolio card for this project.
