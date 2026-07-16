@@ -1,0 +1,194 @@
+{
+  "project": {
+    "title": "Global Superstore Analytics",
+    "type": "Power BI Capstone Landing Page",
+    "sourceFiles": {
+      "pbix": "C:\\Users\\Aniruddha\\Desktop\\Data Science\\Capstone Project\\Project.pbix",
+      "dataset": "C:\\Users\\Aniruddha\\Desktop\\Data Science\\Capstone Project\\global_superstore_2016.csv"
+    }
+  },
+  "theme": {
+    "name": "Executive Analytics",
+    "colors": {
+      "ink": "#15211f",
+    "muted": "#66706d",
+    "paper": "#f7f4ec",
+    "panel": "#fffdf7",
+    "line": "#ded8ca",
+    "teal": "#0f766e",
+    "green": "#38a169",
+    "coral": "#e85d45",
+    "gold": "#e7a529",
+    "blue": "#2f6fbd"
+    },
+    "typography": {
+      "fontFamily": "Inter, Segoe UI, system-ui, sans-serif",
+      "headlineStyle": "large, bold, executive",
+      "bodyStyle": "clean, readable, dashboard-oriented"
+    }
+  },
+  "hero": {
+    "eyebrow": "Power BI capstone project",
+    "headline": "Global Superstore Intelligence",
+    "description": "Sales, profit, discount behavior, and regional performance from 51,290 orders turned into a crisp executive analytics story.",
+    "primaryAction": {
+      "label": "View Preview",
+      "target": "#dashboard"
+    },
+    "secondaryAction": {
+      "label": "Open PBIX",
+      "target": "file:///C:/Users/Aniruddha/Desktop/Data%20Science/Capstone%20Project/Project.pbix"
+    }
+  },
+  "metrics": [
+    {
+      "label": "Total sales",
+      "value": "$12.64M",
+      "rawValue": 12642501.91
+    },
+    {
+      "label": "Total profit",
+      "value": "$1.47M",
+      "rawValue": 1467457.29
+    },
+    {
+      "label": "Orders",
+      "value": "25,728",
+      "rawValue": 25728
+    },
+    {
+      "label": "Countries",
+      "value": "165",
+      "rawValue": 165
+    }
+  ],
+  "sections": [
+    {
+      "id": "insights",
+      "title": "What the dashboard reveals",
+      "description": "The analysis connects executive KPIs with category performance, market concentration, and margin pressure from discounts.",
+      "categorySales": [
+        {
+          "category": "Technology",
+          "sales": "$4.74M",
+          "rawSales": 4744557.5,
+          "profit": "$663.78K",
+          "rawProfit": 663778.73
+        },
+        {
+          "category": "Furniture",
+          "sales": "$4.11M",
+          "rawSales": 4110451.9,
+          "profit": "$285.08K",
+          "rawProfit": 285082.73
+        },
+        {
+          "category": "Office Supplies",
+          "sales": "$3.79M",
+          "rawSales": 3787492.51,
+          "profit": "$518.60K",
+          "rawProfit": 518595.83
+        }
+      ],
+      "takeaways": [
+        {
+          "title": "Technology leads revenue and profit.",
+          "body": "It contributes the strongest sales base and $663.78K in profit, making it the clearest growth engine."
+        },
+        {
+          "title": "Loss orders need focused attention.",
+          "body": "12,544 transactions were unprofitable, so discount and shipping decisions deserve tight monitoring."
+        },
+        {
+          "title": "Copiers and phones are profit heroes.",
+          "body": "The top two sub-categories generated roughly $475K profit together."
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Market reach at global scale",
+      "description": "Asia Pacific and Europe create the largest sales pools, while USCA and LATAM add strong regional depth.",
+      "markets": [
+        {
+          "market": "Asia Pacific",
+          "sales": "$4.04M",
+          "rawSales": 4042658.27
+        },
+        {
+          "market": "Europe",
+          "sales": "$3.29M",
+          "rawSales": 3287336.23
+        },
+        {
+          "market": "USCA",
+          "sales": "$2.36M",
+          "rawSales": 2364129.03
+        },
+        {
+          "market": "LATAM",
+          "sales": "$2.16M",
+          "rawSales": 2164605.17
+        },
+        {
+          "market": "Africa",
+          "sales": "$783.77K",
+          "rawSales": 783773.21
+        }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "title": "Built like an analyst story",
+      "description": "The project follows a practical path from raw store data to decision-ready visuals and SQL-backed business questions.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Clean and model the sales data",
+          "body": "Orders, products, regions, discounts, shipping costs, and margins are shaped for fast Power BI exploration."
+        },
+        {
+          "number": "02",
+          "title": "Surface category and market signals",
+          "body": "Visuals emphasize where revenue grows, where profit concentrates, and where discount behavior damages margin."
+        },
+        {
+          "number": "03",
+          "title": "Turn findings into decisions",
+          "body": "The final report frames actions around high-profit categories, loss-heavy segments, and regional priorities."
+        }
+      ]
+    }
+  ],
+  "topProfitSubCategories": [
+    {
+      "subCategory": "Copiers",
+      "profit": "$258.57K",
+      "rawProfit": 258567.55
+    },
+    {
+      "subCategory": "Phones",
+      "profit": "$216.72K",
+      "rawProfit": 216717.01
+    },
+    {
+      "subCategory": "Bookcases",
+      "profit": "$161.92K",
+      "rawProfit": 161924.42
+    },
+    {
+      "subCategory": "Appliances",
+      "profit": "$141.56K",
+      "rawProfit": 141562.59
+    },
+    {
+      "subCategory": "Chairs",
+      "profit": "$140.40K",
+      "rawProfit": 140396.27
+    }
+  ],
+  "recommendedUse": [
+    "Use this JSON as a content and style blueprint for a website, app screen, or design tool.",
+    "Use the existing Project.pbix file for the actual Power BI report."
+  ]
+}
